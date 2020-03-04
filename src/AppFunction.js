@@ -10,6 +10,10 @@ const App = () => {
     window.addEventListener("mousemove", handleMouseMove);
   });
 
+  const handleMouseMove = event => {
+    setMousePosition({});
+  };
+
   const incrementCount = () => {
     setCount(prevCount => prevCount + 1);
   };
